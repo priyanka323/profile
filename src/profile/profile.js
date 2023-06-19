@@ -61,11 +61,11 @@ class Profile extends Component{
                       </div>
                       
                       <div style={{marginLeft:"1rem"}}>
-                          <h6 style={{textDecorationLine:"underline",margin:"0"}}>Academic Achievements:</h6>
+                          {/* <h6 style={{textDecorationLine:"underline",margin:"0"}}>Academic Achievements:</h6>
                           <p style={{margin:"0"}}>AB house Roll</p>
                           <p style={{margin:"0"}}>NUHS</p>
                           <h6 style={{textDecorationLine:"underline"}}>Extra-curricular Activities:</h6>
-                          <p style={{margin:"0"}}>Softball,Sports,Camping</p>
+                          <p style={{margin:"0"}}>Softball,Sports,Camping</p> */}
                       </div>
                   </div>
                   
