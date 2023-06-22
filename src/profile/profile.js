@@ -163,9 +163,12 @@ class Profile extends Component{
                             {/* <h6>Forney High school(4A)Forney,Texas</h6>
                             <h6>Eric Montgomery</h6>
                             <h6>eric.montgomery@gmail.com</h6> */}
-                          <h6>{data.school}</h6>
+                            {data && <h6>{data.school}</h6>}
+                            {data && <h6>{data.school}</h6>}
+                            {data && <h6>{data.school}</h6>}
+                          {/* <h6>{data.school}</h6>
                             <h6>{data.coach}</h6>
-                            <h6>{data.email}</h6>
+                            <h6>{data.email}</h6> */}
                           </div>
                       </div>
                       
@@ -248,10 +251,11 @@ class Profile extends Component{
                             <h6>POSITION</h6>
                         </div>
                         <div style={{width:'50%'}}>
-                        <h6>{personalData.dob}</h6>
+                        {data && <h6>{personalData.dob}</h6>}
+                        {/* <h6>{personalData.dob}</h6>
                         <h6>{personalData.ht}</h6>
                         <h6>{personalData.wt}</h6>
-                        <h6>{personalData.position}</h6>
+                        <h6>{personalData.position}</h6> */}
                             {/* <h6 >03/08/2000</h6>
                             <h6 >5'7</h6>
                             <h6 >52</h6>

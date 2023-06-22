@@ -1,0 +1,21 @@
+.App {
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
